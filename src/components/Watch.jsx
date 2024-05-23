@@ -51,7 +51,7 @@ const Watch = () => {
   return (
     <div className="md:flex justify-between items-start w-full p-4">
       <div className="w-full md:w-3/4 lg:w-2/3 xl:w-3/4 mx-1">
-        <div className=" w-full sm:h-[300px] md:h-[350px] lg:h-[400px] xl:h-[450px]">
+        <div className=" w-full h-[230px] sm:h-[300px] md:h-[350px] lg:h-[400px] xl:h-[450px]">
           <iframe
             className="rounded-lg w-full h-full"
             src={`https://www.youtube.com/embed/${videoId}?autoplay=1`}
